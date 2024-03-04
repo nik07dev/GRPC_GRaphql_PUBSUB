@@ -1,0 +1,12 @@
+ECS does not have computing power builtin 
+So it takes power from mainly two
+    1. EC2 (Gives Full control to control infrastructure)
+    2. Fargate (AWS Fargate is a technology that you can use with 
+                Amazon ECS to run containers without having to manage 
+                servers or clusters of Amazon EC2 instances)
+                No need maintain or provision EC2 servers
+
+Task Definition - Blue print containing all info about how to run containers
+Task - Running container based on tasks definition file
+
+ECS Service - Ensures that these no of tasks are running at all times.
